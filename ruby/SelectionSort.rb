@@ -19,12 +19,11 @@ def selection_sort array
     (i+1).upto(s-1) do |j|
       least = j if array[j] < array[least]
     end
+    
     array[i], array[least] = array[least], array[i]
   end
   
   return array
 end
 
-t = Time.now
 selection_sort(init(1000))
-p Time.now - t
