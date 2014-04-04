@@ -26,4 +26,6 @@ def bubble_sort array
   return array
 end
 
+t = Time.now
 bubble_sort(init(1000))
+p Time.now - t
