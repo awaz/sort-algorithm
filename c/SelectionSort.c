@@ -18,19 +18,11 @@ void selectionSort(int A[], int array_size) {
   }
 }
 
-void check_sort(int a[], int array_size) {
-  for (int i = 0; i < array_size; i++)
-    printf("%d ", a[i]);
-  printf("\n");
-}
-
 int main() {
   int a[] = { 1,9,5,9,4,2,423,54,76,98,2,1,3,43,0,99,87,43,11,65,2,9,0,43,62,7,3 };
   int size = sizeof(a) / sizeof(a[0]);
 
-  check_sort(a, size);
   selectionSort(a, size);
-  check_sort(a, size);
-  
+
   return 0;
 }

@@ -15,7 +15,7 @@ void bubbleSort(int A[], int array_size) {
 }
 
 int main() {
-  int a[] = {5,1,8,3,9,2,6,4,5,1,5,8,4,10,0,13,4,21,6,2};
+  int a[] = {5,1,8,3,9,2,6,4,5,1,5,8,4,10,0,13,4,21,6,2,4,3,75,32,54,23};
   int size = sizeof(a) / sizeof(a[0]);
 
   bubbleSort(a, size);
